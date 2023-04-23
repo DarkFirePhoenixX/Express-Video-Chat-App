@@ -24,7 +24,7 @@ showChat.addEventListener("click", () => {
 console.log(user)
 
 var peer = new Peer({
-  host: '803c-87-227-223-240.ngrok-free.app',
+  host: 'express-videochat-app.onrender.com',
   // port: 3030,
   path: '/peerjs',
   config: {
