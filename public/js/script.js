@@ -19,13 +19,11 @@ showChat.addEventListener("click", () => {
   document.querySelector(".header__back").style.display = "block";
 });
 
-// const user = prompt("Enter your name");
-
 console.log(user)
 
-var peer = new Peer({
-  host: '803c-87-227-223-240.ngrok-free.app',
-  // port: 3030,
+var peer = new Peer({undefined,
+  host: '0030-212-50-20-62.ngrok-free.app',
+  port: 443,
   path: '/peerjs',
   config: {
     'iceServers': [
